@@ -3,5 +3,5 @@ project(Base64)
 
 set(CMAKE_C_STANDARD 99)
 
-set(SOURCE_FILES App_base64.c base46.h base64.c)
+set(SOURCE_FILES App_base64.c base64.h base64.c)
 add_executable(Base64 ${SOURCE_FILES})
