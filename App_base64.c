@@ -7,6 +7,8 @@ void print_usage();
 
 int main(int argc, char** argv) {
 
+    printf("argc = %d \n arg1 = %s \n arg2 = %s \n arg3 = %s \n", argc, argv[0], argv[1], argv[2]);
+
     if (argc == 1) {
 
         /* Have to deal with Base64 format? Welcome! */
@@ -18,14 +20,23 @@ int main(int argc, char** argv) {
 
     } else if (argc == 3) {
 
-        
+        if(argv[1] == (char*)"encode") {
+            printf(base64_encode(argv[2]));
+        } else if(argv[1] == (char*)"decode") {
+            printf(base64_decode(argv[2]));
+        } else {
+            printf("Wrong Parameters! \n");
+            print_usage();
+        }
 
     } else {
 
-        printf("Wrong Parameters! \n\n");
+        printf("Wrong Parameters! \n");
         print_usage();
 
     }
+
+    return 0;
 }
 
 
