@@ -71,10 +71,10 @@ An Example program to demonstrate the Base64 library by  giving the inputs throu
 
 - **Usage** `base64 (encode | decode) <source> [<destination>]`
 - **Options**
-  - *encode*  -->  Convert ASCII string into Base64 format
-  - *decode*  -->  Convert Base64 format into ASCII string
+  - *`encode`*  -  Convert ASCII string into Base64 format
+  - *`decode`*  -  Convert Base64 format into ASCII string
 - **Arguments**
-  - *source*  -->  String or path/to/file to be converted
-  - *destination*  -->  Path/to/converted/file
+  - *`<source>`*  -  String or path/to/file to be converted
+  - *`<destination>`*  -  Path/to/converted/file
 
 
