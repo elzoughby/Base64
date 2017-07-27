@@ -6,7 +6,7 @@ The particular set of 64 characters chosen to represent the 64 place-values for 
 
 #### Example
 
-A quote from [Thomas Hobbes](https://en.wikipedia.org/wiki/Thomas_Hobbes)' *Leviathan* (be aware of spaces between lines):
+A quote from [Thomas Hobbes](https://en.wikipedia.org/wiki/Thomas_Hobbes)' *Leviathan*:
 
 > Man is distinguished, not only by his reason, but by this singular passion from other animals, which is a lust of the mind, that by a perseverance of delight in the continued and indefatigable generation of knowledge, exceeds the short vehemence of any carnal pleasure.
 
