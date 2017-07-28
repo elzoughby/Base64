@@ -16,7 +16,7 @@ is represented as a byte sequence of 8-bit-padded [ASCII](https://en.wikipedia.o
 
 In the above quote, the encoded value of *Man* is *TWFu*. Encoded in ASCII, the characters *M*, *a*, and *n* are stored as the bytes `77`, `97`, and `110`, which are the 8-bit binary values `01001101`, `01100001`, and `01101110`. These three values are joined together into a 24-bit string, producing `010011010110000101101110`. Groups of 6 bits (6 bits have a maximum of 26 = 64 different binary values) are [converted into individual numbers](https://en.wikipedia.org/wiki/Binary_number#Counting_in_binary) from left to right (in this case, there are four numbers in a 24-bit string), which are then converted into their corresponding Base64 character values.
 
-The Base64 index table: [[1]](https://en.wikipedia.org/wiki/Base64)
+The Base64 index table: [[2]](https://en.wikipedia.org/wiki/Base64)
 
 | Value | Char | Value | Char | Value | Char | Value | Char |
 | ----- | ---- | ----- | ---- | ----- | ---- | ----- | ---- |
